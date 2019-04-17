@@ -30,7 +30,7 @@
 }
 
 .backgroung_image{
- background-image: url("home.jpg");
+ background-image: url("images/home.jpg");
 }
 
 .btn-squared-default {
@@ -41,32 +41,32 @@
 }
 
 .btn-startup {
-    background: url("background_startup_thumbnail.jpg");
+    background: url("images/background_startup_thumbnail.jpg");
     background-size: cover;
 }
 
 .btn-corporation {
-    background: url("corporation_thumbnail.png");
+    background: url("images/corporation_thumbnail.png");
     background-size: cover;
 }
 
 .btn-investor {
-    background: url("investor_thumbnail.jpg");
+    background: url("images/investor_thumbnail.jpg");
     background-size: cover;
 }
 
 .btn-job {
-    background: url("job_seeker_thumbnail.jpg");
+    background: url("images/job_seeker_thumbnail.jpg");
     background-size: cover;
 }
 
 .btn-agent {
-    background: url("agent_thumbnail.jpg");
+    background: url("images/agent_thumbnail.jpg");
     background-size: cover;
 }
 
 .btn-other {
-    background: url("other_thumbnail.jpg");
+    background: url("images/other_thumbnail.jpg");
     background-size: cover;
 }
 
