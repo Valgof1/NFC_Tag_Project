@@ -111,3 +111,8 @@ h5 {
     font-weight: normal;
     font-style: normal;
 }
+
+.credits{
+    text-align:center; 
+    color:#8b8b8b;
+}
