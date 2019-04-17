@@ -12,13 +12,6 @@
     margin: 0;
 }
 
-.jumbotron {
-    background-image: url("job_seeker_thumbnail.jpg");
-    color: #ffffff;
-    text-align: center;
-    background-size: cover;
-    height: 100%;
-}
 
 .smallimg {
     width: 2rem;
@@ -30,18 +23,21 @@
 }
 
 .jumbotron {
-    background-image: url("home.jpg");
     color: #ffffff;
     text-align: center;
     background-size: cover;
     height: 100%;
 }
 
+.backgroung_image{
+ background-image: url("home.jpg");
+}
+
 .btn-squared-default {
     width: 100%;
-    height: 10rem;
+    height: 8rem;
     font-size: 140%;
-    line-height: 9rem;
+    line-height: 7rem;
 }
 
 .btn-startup {
@@ -78,6 +74,6 @@
 
 @media only screen and (max-width: 370px) {
     .btn-squared-default {
-        font-size: 100%;
+        font-size: 110%;
     }
 }
