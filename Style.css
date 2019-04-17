@@ -12,7 +12,6 @@
     margin: 0;
 }
 
-
 .smallimg {
     width: 2rem;
     height: auto;
@@ -29,8 +28,8 @@
     height: 100%;
 }
 
-.backgroung_image{
- background-image: url("images/home.jpg");
+.backgroung_image {
+    background-image: url("images/home.jpg");
 }
 
 .btn-squared-default {
@@ -70,10 +69,45 @@
     background-size: cover;
 }
 
-/*Overrides the font size font small screen sizes*/
+.btn:hover {
+    color: #ffffff;
+}
+
+/*Overrides the font size for small screen sizes*/
 
 @media only screen and (max-width: 370px) {
     .btn-squared-default {
         font-size: 110%;
     }
+}
+
+/*Change the font to Valuer custom font*/
+@font-face {
+    font-family: "Gotham black";
+    src: url("Gotham-Black_Web.woff2") format("woff"),
+}
+
+@font-face {
+    font-family: "Gotham book";
+    src: url("Gotham-Book_Web.woff2") format("woff"),
+}
+
+/*Gotham black is used for the headers*/
+h1 {
+    font-family: 'Gotham black', Arial, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+h5 {
+    font-family: 'Gotham black', Arial, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*Gotham book is used for the paragraphs*/
+* {
+    font-family: 'Gotham book', Arial, sans-serif;
+    font-weight: normal;
+    font-style: normal;
 }
