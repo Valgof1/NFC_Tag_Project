@@ -39,6 +39,16 @@
     line-height: 7rem;
 }
 
+.btn-signup{
+    background: none;
+    border-radius: 0;
+}
+
+/*Overwrite so the button does not turn white when touched or mouse above it*/
+.btn-signup:hover {
+    background: none;
+}
+
 .btn-startup {
     background: url("images/background_startup_thumbnail.jpg");
     background-size: cover;
