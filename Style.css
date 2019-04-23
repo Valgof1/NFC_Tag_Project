@@ -85,9 +85,15 @@
 
 /*Overrides the font size for small screen sizes*/
 
-@media only screen and (max-width: 370px) {
+@media only screen and (max-width: 400px) {
     .btn-squared-default {
         font-size: 110%;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .btn-squared-default {
+        font-size: 100%;
     }
 }
 
