@@ -102,11 +102,13 @@
     src: url("Gotham-Book_Web.woff2") format("woff"),
 }
 
+
+
 /*Gotham black is used for the headers*/
 h1 {
     font-family: 'Gotham black', Arial, sans-serif;
     font-weight: normal;
-    font-style: normal;
+    font-style: italic;
 }
 
 h5 {
@@ -116,11 +118,20 @@ h5 {
 }
 
 /*Gotham book is used for the paragraphs*/
+
+i {
+    font-family: 'Gotham book italic', Arial, sans-serif;
+    font-weight: normal;
+    font-style: italic;
+}
+
 * {
     font-family: 'Gotham book', Arial, sans-serif;
     font-weight: normal;
     font-style: normal;
 }
+
+
 
 .credits{
     text-align:center; 
