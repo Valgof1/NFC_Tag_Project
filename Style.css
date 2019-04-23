@@ -39,12 +39,13 @@
     line-height: 7rem;
 }
 
-.btn-signup{
+.btn-signup {
     background: none;
     border-radius: 0;
 }
 
 /*Overwrite so the button does not turn white when touched or mouse above it*/
+
 .btn-signup:hover {
     background: none;
 }
@@ -98,6 +99,7 @@
 }
 
 /*Change the font to Valuer custom font*/
+
 @font-face {
     font-family: "Gotham black";
     src: url("Gotham-Black_Web.woff2");
@@ -113,9 +115,8 @@
     src: url("Gotham-BookItalic_Web.woff2");
 }
 
-
-
 /*Gotham black is used for the headers*/
+
 h1 {
     font-family: 'Gotham black', Arial, sans-serif;
     font-weight: normal;
@@ -142,9 +143,7 @@ i {
     font-style: normal;
 }
 
-
-
-.credits{
-    text-align:center; 
-    color:#8b8b8b;
+.credits {
+    text-align: center;
+    color: #8b8b8b;
 }
