@@ -94,12 +94,17 @@
 /*Change the font to Valuer custom font*/
 @font-face {
     font-family: "Gotham black";
-    src: url("Gotham-Black_Web.woff2") format("woff"),
+    src: url("Gotham-Black_Web.woff2");
 }
 
 @font-face {
     font-family: "Gotham book";
-    src: url("Gotham-Book_Web.woff2") format("woff"),
+    src: url("Gotham-Book_Web.woff2");
+}
+
+@font-face {
+    font-family: "Gotham book italic";
+    src: url("Gotham-BookItalic_Web.woff2");
 }
 
 
@@ -108,7 +113,7 @@
 h1 {
     font-family: 'Gotham black', Arial, sans-serif;
     font-weight: normal;
-    font-style: italic;
+    font-style: normal;
 }
 
 h5 {
